@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function WeatherInfoBox(props) {
-    // Conditions to determine the background and font color based on the 'color' prop
+    // Conditions to determine the background and font color based on the 'color' propnpm
     const backgroundColor = props.color === 'black' ? '' : 'white';
     const fontColor = props.color === 'black' ? 'white' : 'black';
 

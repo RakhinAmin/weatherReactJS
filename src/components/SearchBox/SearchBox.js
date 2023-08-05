@@ -17,9 +17,9 @@ export default function SearchBox(props) {
   // Creates the search box with an input field and a search icon
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 50 }}>
-        <div style={{ width: '50%', position: 'relative' }}>
+        <div style={{ width: '0%', position: 'relative' }}>
             <div style={{position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)'}}>
-            <FaSearch style={{ color: 'white' }}/>
+            <FaSearch style={{ color: 'white', position: 'absolute'}}/>
             </div>
         </div>
         <input
