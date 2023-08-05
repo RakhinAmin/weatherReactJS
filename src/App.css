@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("./assets/oppenheimer.jpg");
+  background-size: cover;
+
+  margin-top: -30px;
 }
 
 .App-logo {
